@@ -8,7 +8,7 @@ def  passwordsecure(password):
     return password
  
 password = input("please provide your password here:")
-decision = input("Do you need UPPER case letters to be present ?(Y/N)")
+decision = input("Do you need UPPER case letters to be present ?(y/n)")
 
 if decision == 'y':
     print(f"your new password is {passwordsecure(password)}")
